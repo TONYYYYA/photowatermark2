@@ -25,7 +25,7 @@
 - 若显示 Python 版本号（如 Python 3.8.10），则环境正常。
 - 安装依赖库：在终端中执行以下命令，安装工具所需的 PyQt5（界面库）和 Pillow（图片处理库）：
   ```bash
-    pip install pyqt5 pillow matplotlib # 或 pip3 install pyqt5 pillow
+    pip install pyqt5 pillow matplotlib pyqt5
 - 准备程序代码：下载图片水印工具的程序代码，将其保存为photowaternark2.py 文件（确保文件路径无特殊字符，如中文空格、特殊符号）。
 ## 启动
 ### 双击photowatermark2.exe运行程序

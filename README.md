@@ -25,14 +25,13 @@
 - 若显示 Python 版本号（如 Python 3.8.10），则环境正常。
 - 安装依赖库：在终端中执行以下命令，安装工具所需的 PyQt5（界面库）和 Pillow（图片处理库）：
   ```bash
-    pip install pyqt5 pillow  # 或 pip3 install pyqt5 pillow
-- 准备程序代码：下载图片水印工具的程序代码，将其保存为 watermark_tool.py 文件（确保文件路径无特殊字符，如中文空格、特殊符号）。
-运行程序：在终端中进入 watermark_tool.py 所在的文件夹（通过 cd 文件夹路径 命令切换，例：cd C:\Users\XXX\Desktop），然后执行以下命令启动程序：
-    ```bash
-    python watermark_tool.py  # 或 python3 watermark_tool.py
+    pip install pyqt5 pillow matplotlib # 或 pip3 install pyqt5 pillow
+- 准备程序代码：下载图片水印工具的程序代码，将其保存为photowaternark2.py 文件（确保文件路径无特殊字符，如中文空格、特殊符号）。
+## 启动
+### 打开watermark.py文件在pycharm等软件中运行运行
 - 启动成功后，将自动弹出工具的主操作窗口。
 - 界面导航
-程序界面分为三个主要部分，布局清晰，操作逻辑直观：
+程序界面分为三个主要部分：
 - 左侧：图片管理区
 核心功能：展示已导入图片的缩略图和文件名，方便快速识别；
 操作按钮：

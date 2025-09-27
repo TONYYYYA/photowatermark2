@@ -289,7 +289,7 @@ class ImageWatermarkTool(QMainWindow):
         self.slider_text_alpha = QSlider(Qt.Horizontal)
         self.slider_text_alpha.setRange(0, 100)
         self.slider_text_alpha.setValue(self.watermark_config["text_transparency"])
-        self.lbl_text_alpha = QLabel(f"{self.watermark_config['text_transparency']}%")
+        self.lbl_text_alpha = QLabel(f"{100-self.watermark_config['text_transparency']}%")
         self.slider_text_alpha.valueChanged.connect(self.on_text_alpha_changed)
         alpha_layout.addWidget(self.slider_text_alpha)
         alpha_layout.addWidget(self.lbl_text_alpha)

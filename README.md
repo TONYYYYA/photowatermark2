@@ -28,7 +28,7 @@
     pip install pyqt5 pillow matplotlib # 或 pip3 install pyqt5 pillow
 - 准备程序代码：下载图片水印工具的程序代码，将其保存为photowaternark2.py 文件（确保文件路径无特殊字符，如中文空格、特殊符号）。
 ## 启动
-### 打开watermark.py文件在pycharm等软件中运行运行
+### 双击photowatermark2.exe运行程序
 - 启动成功后，将自动弹出工具的主操作窗口。
 - 界面导航
 程序界面分为三个主要部分：
